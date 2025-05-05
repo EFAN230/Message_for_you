@@ -124,6 +124,37 @@
           font-size: 1.4em;
         }
       }
+
+      @media (max-width: 768px) {
+        body {
+          overflow: auto; /* Izinkan scroll jika diperlukan */
+        }
+
+        .text h1 {
+          font-size: 1.2em; /* Sesuaikan ukuran font judul */
+        }
+
+        .text p.name {
+          font-size: 0.9rem; /* Sesuaikan ukuran font paragraf */
+          padding: 0 10px; /* Tambahkan padding untuk ruang */
+        }
+
+        #cake {
+          width: 150px; /* Perkecil ukuran SVG kue */
+          height: 400px;
+        }
+
+        .cake {
+          margin: -5em auto 0 auto; /* Sesuaikan margin */
+          width: 4px; /* Perkecil ukuran lilin */
+          height: 30px;
+        }
+
+        .fuego {
+          width: 5px; /* Perkecil ukuran api */
+          height: 15px;
+        }
+      }
     </style>
   </head>
   <body>
@@ -282,7 +313,7 @@
         </path>
         <rect x="10" y="475.571" fill="#fefae9" width="180" height="4" />
       </svg>
-       <div class="text">
+      <div class="text">
       <h1>Happy Birthday!</h1>
       <h1>Gracee</h1>
       <p class="name">Selamat ulang tahun untuk seseorang yang sangat berarti dalam hidupku. 
