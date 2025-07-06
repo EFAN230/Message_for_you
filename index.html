@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For_you</title>
+    <title>For you</title>
     <style>
       @import url(https://fonts.googleapis.com/css?family=Lato:300italic);
 
@@ -153,6 +153,22 @@
         .fuego {
           width: 5px; /* Perkecil ukuran api */
           height: 15px;
+        }
+      }
+      .stiker {
+        display: block;
+        margin: 30px auto 0 auto;
+        width: 100px;
+        max-width: 40vw;
+        z-index: 10;
+        pointer-events: none;
+        position: static;
+      }
+
+      @media (max-width: 768px) {
+        .stiker {
+          width: 70px;
+          margin-top: 20px;
         }
       }
     </style>
@@ -323,5 +339,6 @@
         Aku bersyukur memilikimu.<br> Happy birthday, my special one &lt;3 <br>
       </p>
       </div>
+      <img src="stiker.png" alt="Stiker" class="stiker">
   </body>
 </html>
